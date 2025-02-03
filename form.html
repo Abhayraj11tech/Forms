@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzTwYX_JOH7wZ9iQ_XG5Q0HVACtm-tjZVGg&s://encrypted-tbn0.https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4f_0TkM6xtQe-kkkiNj644InUTyi12aZCg&s.com/images?q=tbn:ANd9GcTrPX4j3aWuoqoM03PjU0fH4dfGMxSVAIl2-A&s);
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:14px ;
+        }
+        input:hover{
+            background-color: black;
+            color: white;
+        }
+        textarea:hover{
+            background-color: black;
+            color: white;
+        }
+        select:hover{ 
+            font-size: 14px;
+            text-size-adjust: 10px;
+            border-color: aliceblue;
+        }
+        #b1:hover{
+            background-color: green;
+            width: 80px;
+        }
+        #b2:hover{
+            background-color: red;
+            width: 80px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+    <legend> Login form:</legend>
+    Name: <input type="text" placeholder="Enter your name">
+    <br><br>
+    Email:<input type="email" placeholder="abc@gmail.com">
+    <br><br>
+    Mobile No: <input type="number" placeholder="Enter your contact">
+            <br><br>
+            Age: <input type="number" name="" id="" placeholder="">
+            <br><br>
+            Hobbies: <input type="checkbox" name="hob" id="">Reading Books
+            <input type="checkbox" name="hob" id="">Playing Games
+            <input type="checkbox" name="hob" id="">Dancing
+            <input type="checkbox" name="hob" id="">Music
+            <br><br>
+            Country: 
+            <select name="nation" id="">
+                <option value="">India</option>
+                <option value="">US</option>
+                <option value="">China</option>
+            </select>
+            <br><br>
+            State: <input type="text">
+            <br><br>
+            D.O.B: <input type="datetime-local" name="" id=""><br><br>
+            Income: <input type="range" max="10000000" min="100000" name="" id="">
+            <br><br>
+            Address: <textarea name="" id="" placeholder="Enter your Parmananet address"></textarea>
+            <br><br>
+            <input type="submit" id="b1"></button>
+            <button id="b2">Reset</button>
+</fieldset>
+</form>
+    
+</body>
+</html>
